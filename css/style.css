@@ -44,28 +44,32 @@ h1 {
 	letter-spacing: 1px;
     font-style: normal;
     font-size: 72px;
-	box-shadow: 1px 1px 1px 1px #CCCCCC;
 	padding: 8px;
-	background-color: rgba(0,0,0,0.1);
 	color: #111010;
+	background-color: #DBDBDB;
+	border-bottom-left-radius: 90px;
+	border-bottom-right-radius: 90px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+}
+
+.container {
+	background-color: #FFFFFF;
 }
 
 #headLine {
-	box-shadow: 1px 1px 1px 1px #CCCCCC;
-	background-color: #fbfbf8;
+	background-color: #FFFFFF;
 }
 
 h2 {
-	font-family: Tahoma, sans-serif;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
 	font-weight: 400;
     font-style: normal;
-    font-size: 32px;
-    color: #000000;   
-	margin-bottom: 2px;
+    font-size: 48px;
+    color: #474747;   
     letter-spacing: 2px;
-	border-bottom-style: solid;
-	border-bottom-width: 1px;
-	border-bottom-color: #CCCCCC;
+	background-color: #EEEEEE;
+	border-radius: 90px;
 }
 
 h3 {
@@ -73,28 +77,63 @@ h3 {
 	font-weight: 200;
     font-style: normal;
     font-size: 24px;
-    color: #000000;
-	background-color: #F6F4F4;
+    color: #474747;
     letter-spacing: 2px;
-	box-shadow: 2px 2px 6px #CCCCCC;
 	padding: 4px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #BBBBBB;
 }
 
 p {
-    font: 14px/1.8 Arial, sans-serif; 
+    font: 16px/2 Arial, sans-serif; 
 }
 
 body {
 	color: #000000;
+	background-color: #EEEEEE;
+}
+
+.row {
+	border-bottom-style: solid;
+	border-bottom-width: 4px;
+	border-bottom-color: #CCCCCC;
+	border-left-style: solid;
+	border-left-width: 4px;
+	border-left-color: #CCCCCC;
+	border-right-style: solid;
+	border-right-width: 4px;
+	border-right-color: #CCCCCC;
+	border-top-style: solid;
+	border-top-width: 4px;
+	border-top-color: #CCCCCC;
+	background-color: #ffffff;
+}
+
+.container {
+	border-style: none;
+	background-color: #EEEEEE;
+	margin-bottom: 30px;
+}
+
+.summaryListItem {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #BBBBBB;
 }
 
 .introPic {
 	width: 360px;
-	height: 360px;
+	height: 280px;
+	transform: rotate(-90deg);
+	margin-top: 30px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #BBBBBB;
 }
 
 .skillBox {
-	border-bottom-style: none;
+	margin-top: 10px;
 }
 
 .contactList {
@@ -103,8 +142,7 @@ body {
 }
 
 .contactList:hover {
-	font-size: 22px;
-	background-color: #EDD3D3;
+	background-color: #D5D5D5;
 }
 
 .languageListItem {
@@ -113,14 +151,14 @@ body {
 	padding: 10px;
 }
 
-#paddedHeading {
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
-
 .listItemPad {
 	padding-top: 6px;
 	padding-bottom: 6px;
+}
+
+.skillsPic {
+	width: 200px;
+	height: 200px;
 }
 
 #gradPhoto {
@@ -136,10 +174,22 @@ body {
 	margin-top: 10px;
 }
 
-.callTheGuysCard {
-	width: 400px; 
-	height: 220px;
+.employmentCard {
+	width: 280px; 
+	height: 160px;
 	margin-top: 20px;
+}
+
+.noBorder {
+	border-style: none;
+}
+
+.noBottomBorder {
+	border-bottom-style: none;
+}
+
+.noTopBorder {
+	border-top-style: none;
 }
 
 /*Tablets*/
@@ -153,23 +203,12 @@ body {
 
     h2 {
         font-weight: 200;
-        font-size: 42px;
         letter-spacing: 2px;
-    }
-
-    h3 {
-        font-size: 18px;
-        left: 16%;
     }
 
     p {
         font-size: 16px;
     }
-	
-	.introPic {
-		width: 280px;
-		height: 280px;
-	}
 	
 	.skillBox {
 		border-bottom-style: solid;
@@ -177,15 +216,6 @@ body {
 		border-bottom-color: #333333;
 		padding-top: 6px;
     }
-
-	.nav {
-		background-color: rgba(11,231,236,1);
-		border-radius: 45px;
-		box-shadow: none;
-		border-style: solid;
-		border-width: 2px;
-		border-color: #AAAAAA;
-	}
 	
 	.navBarLink:hover {
 		border-bottom-style: none;
@@ -193,6 +223,11 @@ body {
 	
 	.navbar-right {
 		bottom: 80px;
+	}
+	
+	.skillPic {
+		width: 150px;
+		height: 150px;
 	}
 }
 
