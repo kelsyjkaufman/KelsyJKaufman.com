@@ -275,14 +275,25 @@ body {
 		height: 550px;
 	}
 
-	.introPic:hover {
-		height: 200px;
-		width: auto;
+	.introPic {
+		height: auto;
+		width: 200px;
 		-webkit-transform: rotate(-90deg);
 		transform: rotate(-90deg);
 		position: relative;
 		top: 40px;
-		box-shadow: 4px 4px 20px #000000;
+		box-shadow: none;
+		z-index: 0;
+	}
+	
+	.introPic:hover {
+		height: auto;
+		width: 200px;
+		-webkit-transform: rotate(-90deg);
+		transform: rotate(-90deg);
+		position: relative;
+		top: 40px;
+		box-shadow: none;
 		z-index: 0;
 	}
 	
@@ -323,6 +334,24 @@ body {
 	}
 	
 	.introPic {
-		height: 300px;
+		height: auto;
+		width: 200px;
+		-webkit-transform: rotate(-90deg);
+		transform: rotate(-90deg);
+		position: relative;
+		top: 40px;
+		box-shadow: none;
+		z-index: 0;
+	}
+	
+	.introPic:hover {
+		height: auto;
+		width: 200px;
+		-webkit-transform: rotate(-90deg);
+		transform: rotate(-90deg);
+		position: relative;
+		top: 40px;
+		box-shadow: none;
+		z-index: 0;
 	}
 }
