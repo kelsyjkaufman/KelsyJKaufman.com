@@ -130,6 +130,10 @@ body {
 	margin-bottom: 30px;
 }
 
+.img-responsive {
+    margin: 0 auto;
+}
+
 #summaryLine {
 	font-size: 20px;
 }
