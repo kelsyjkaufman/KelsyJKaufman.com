@@ -130,32 +130,6 @@ body {
 	font-size: 20px;
 }
 
-.introPicContainer {
-	width: auto;
-	height: 300px;
-}
-
-.introPic {
-	height: 200px;
-	-webkit-transform: rotate(-90deg);
-	transform: rotate(-90deg);
-	position: relative;
-	top: 34px;
-	left: 20px;
-	margin: 20px;
-}
-
-.introPic:hover {
-	position: absolute;
-	top: 10px;
-	z-index: 5;
-	-webkit-transform: rotate(-90deg);
-	transform: rotate(-90deg);
-	width: 600px;
-	height: auto;
-	box-shadow: 10px 10px 30px #000000;
-}
-
 .skillBox {
 	margin-top: 10px;
 }
@@ -274,28 +248,6 @@ body {
 		width: auto;
 		height: 550px;
 	}
-
-	.introPic {
-		height: auto;
-		width: 300px;
-		-webkit-transform: rotate(-90deg);
-		transform: rotate(-90deg);
-		position: relative;
-		top: 40px;
-		box-shadow: none;
-		z-index: 0;
-	}
-	
-	.introPic:hover {
-		height: auto;
-		width: 300px;
-		-webkit-transform: rotate(-90deg);
-		transform: rotate(-90deg);
-		position: relative;
-		top: 40px;
-		box-shadow: none;
-		z-index: 0;
-	}
 	
 	.employmentCard:hover {
 		position: relative;
@@ -326,32 +278,5 @@ body {
 		right: auto;
 		margin: auto;
 		border-radius: 10px;
-	}
-	
-	.introPicContainer {
-		width: auto;
-		height: 420px;
-	}
-	
-	.introPic {
-		height: auto;
-		width: 100%;
-		-webkit-transform: rotate(-90deg);
-		transform: rotate(-90deg);
-		position: relative;
-		top: 40px;
-		box-shadow: none;
-		z-index: 0;
-	}
-	
-	.introPic:hover {
-		height: auto;
-		width: 200px;
-		-webkit-transform: rotate(-90deg);
-		transform: rotate(-90deg);
-		position: relative;
-		top: 40px;
-		box-shadow: none;
-		z-index: 0;
 	}
 }
