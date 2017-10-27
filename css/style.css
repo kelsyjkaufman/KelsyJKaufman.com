@@ -270,7 +270,6 @@ body {
 		font-weight: 300;
 		margin-top: 0px;
     }
-	
 	.smImage {
 		width: 50px;
 	}
@@ -282,5 +281,11 @@ body {
 		right: auto;
 		margin: auto;
 		border-radius: 10px;
+	}
+}
+
+@media only screen and (min-width: 1201px){
+	.introPic {
+		width: 300px;
 	}
 }
