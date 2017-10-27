@@ -130,7 +130,7 @@ body {
 	margin-bottom: 30px;
 }
 
-.img-responsive {
+.introPic {
     margin: 0 auto;
 }
 
@@ -290,6 +290,6 @@ body {
 
 @media only screen and (min-width: 1201px){
 	.introPic {
-		width: 300px;
+		width: 500px;
 	}
 }
