@@ -325,4 +325,13 @@ body {
 	.introPic {
 		height: 300px;
 	}
+	
+	.introPic:hover {
+		height: 300px;
+		-webkit-transform: rotate(-90deg);
+		transform: rotate(-90deg);
+		position: relative;
+		top: 0px;
+		z-index: 0;
+	}
 }
