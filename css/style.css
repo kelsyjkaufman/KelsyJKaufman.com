@@ -135,6 +135,10 @@ body {
     margin-right: auto;
 }
 
+.introPadding {
+    padding-top: 40px;
+}
+
 #summaryLine {
 	font-size: 20px;
 }
@@ -289,12 +293,5 @@ body {
 	}
 	.introPic {
 		width: 200px;
-	}
-}
-
-@media only screen and (min-width: 1201px){
-	.introPic {
-		width: 400px;
-		margin: 0em;
 	}
 }
