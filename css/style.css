@@ -136,7 +136,7 @@ body {
 }
 
 .introPadding {
-    padding-top: 40px;
+    padding: 40px;
 }
 
 #summaryLine {
@@ -292,6 +292,6 @@ body {
 		border-radius: 10px;
 	}
 	.introPic {
-		width: 200px;
+		width: 320px;
 	}
 }
