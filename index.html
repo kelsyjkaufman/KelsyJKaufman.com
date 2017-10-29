@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Kelsy J. Kaufman's Personal Resume">
+<meta name="author" content="Kelsy Jon Kaufman">
 <title>Kelsy J. Kaufman</title>
 <!-- Bootstrap -->
 <link rel="stylesheet" href="css/bootstrap.css">
@@ -16,7 +18,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body>
+<body id="pageTop">
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid"> 
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -35,11 +37,19 @@
       	<li class="navItem"><a href="tel:+1-715-529-5923" class="navBarLink"><img src="images/icons/phone.png" class="phoneEmailImage" alt="Kelsy J. Kaufman's Phone Number"></a></li>
         <li class="navItem"><a href="mailto:admin@kelsyjkaufman.com?Subject=I%20visited%20your%20site" class="navBarLink"><img src="images/icons/email.png" class="phoneEmailImage" alt="Kelsy J. Email"></a></li>
       </ul>
+      <ul class="nav navbar-nav text-center navbar-fixed-bottom" id="scrollingNav">
+		<li class="navItem"><a href="#pageTop" class="bottomNavBarLink">Top</a></li>
+		<li class="navItem"><a href="#summary" class="bottomNavBarLink">Summary</a></li>
+		<li class="navItem"><a href="#skills" class="bottomNavBarLink">Skills</a></li>
+		<li class="navItem"><a href="#academics" class="bottomNavBarLink">Academics</a></li>
+		<li class="navItem"><a href="#experience" class="bottomNavBarLink">Work Exp</a></li> 
+		<li class="navItem"><a href="#pageBottom" class="bottomNavBarLink">Bottom</a></li>
+	  </ul>
     </div>
     <!-- /.navbar-collapse --> 
   </div>
-  <!-- /.container-fluid --> 
-</nav>
+  <!-- /.container-fluid -->
+	</nav> 
 <!-- HEADER -->
 <header>
     <div class="container" id="headLine">
@@ -72,7 +82,7 @@
 <section>
 	<div class="container">
  	  <div class="row headRow">
-     	<div class="col-lg-12 page-header text-center">
+     	<div class="col-lg-12 page-header text-center" id="summary">
       		<h2 class="text-center">Summary</h2>
       		<blockquote>
 				<p class="quote">Knowing others is intelligence; knowing yourself is true wisdom. Mastering others is strength; mastering yourself is true power.</p>
@@ -88,7 +98,7 @@
 	</div>
   <div class="container text-center">
     <div class="row">
-  	  <div class="col-lg-12 page-header text-center">
+  	  <div class="col-lg-12 page-header text-center" id="skills">
         <h2>Skills Highlight</h2>
         <blockquote>
   			<p class="quote">To win one hundred victories in one hundred battles is not the acme of skill. To subdue the enemy without fighting is the acme of skill.</p>
@@ -181,7 +191,7 @@
 	</div>
     	<div class="container">
     	<div class="row headRow">
-			<div class="col-lg-12 page-header text-center">
+			<div class="col-lg-12 page-header text-center" id="academics">
 				<h2>Academics</h2>
 				<blockquote>
   					<p class="quote">Know thy self, know thy enemy. A thousand battles, a thousand victories.</p>
@@ -215,7 +225,7 @@
 	</div>
 	  <div class="container">
 	  <div class="row headRow">
-	  	<div class="col-lg-12 page-header text-center">
+	  	<div class="col-lg-12 page-header text-center" id="experience">
 	  		<h2>Work Experience</h2>
 	  		<blockquote>
 				<p class="quote">Your own positive future begins in this moment. All you have is right now. Every goal is possible from here.</p>
@@ -289,7 +299,7 @@
 		  </div>
 	  </div>
 	</div>
-  <div class="container text-center">
+  <div class="container text-center" id="pageBottom">
     <div class="row">
       <div class="col-xs-6 col-lg-6 text-center">
         <h3>Domains For Sale</h3>
