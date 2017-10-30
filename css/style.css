@@ -304,7 +304,11 @@ body {
 		position: relative;
 		left: 32%;
 		right: auto;
-		margin: auto;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+		margin-top: 0%;
+		width: auto;
 		border-radius: 10px;
 	}
 	.introPic {
