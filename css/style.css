@@ -221,6 +221,8 @@ body {
 	color: #FFFFFF;
 	font-style: italic;
 	text-align: right;
+	position: relative;
+	right: 10%;
 }
 
 /*Tablets*/
@@ -278,6 +280,10 @@ body {
 		height: auto;
 		box-shadow: none;
 	}
+	
+	#copyRight {
+		right: 4px;
+	}
 }
 
 /*mobile*/
@@ -305,5 +311,6 @@ body {
 	
 	#copyRight {
 		text-align: center;
+		right: 0px;
 	}
 }
