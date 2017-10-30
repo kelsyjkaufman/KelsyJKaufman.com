@@ -222,7 +222,7 @@ body {
 	font-style: italic;
 	text-align: right;
 	position: relative;
-	right: 10%;
+	margin-right: 10%;
 }
 
 /*Tablets*/
@@ -283,17 +283,7 @@ body {
 	
 	#copyRight {
 		text-align: right;
-		position: relative;
-		right: 8px;
-	}
-}
-
-@media only screen and (max-width: 780px){
-	#copyRight {
-		text-align: right;
-		position: relative;
-		right: 0px;
-		margin-right: 2px;
+		margin-right: 2%;
 	}
 }
 
@@ -322,8 +312,6 @@ body {
 	
 	#copyRight {
 		text-align: center;
-		position: relative;
-		right: 0px;
-		margin-right: 0px;
+		margin-right: 1px;
 	}
 }
