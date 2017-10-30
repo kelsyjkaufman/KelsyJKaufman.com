@@ -44,6 +44,7 @@ img {
 .navItem:hover {
 	color: #000000;
 	background-color: #A4CACF;
+	border-radius: 15px 15px 15px 15px;
 }
 
 .navBarLink:hover {
