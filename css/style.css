@@ -43,15 +43,8 @@ img {
 	border-radius: 15px 15px 15px 15px;
 }
 
-.bottomNavBarLink {
-	background-color: #D4F5FD;
-	border-top-width: 2px;
-	border-top-style: solid;
-	border-top-color: #D1EDFB;
-}
-
-#scrollingNav {
-	background-color: rgba(0,0,0,0.00);
+#navBarLeft {
+	width: 100px;
 }
 
 h1 {
