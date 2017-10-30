@@ -288,6 +288,14 @@ body {
 	}
 }
 
+@media only screen and (max-width: 780px){
+	#copyRight {
+		text-align: right;
+		position: relative;
+		right: 4px;
+	}
+}
+
 /*mobile*/
 @media only screen and (max-width: 766px){
     h1 {
