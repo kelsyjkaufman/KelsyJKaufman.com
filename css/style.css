@@ -292,7 +292,8 @@ body {
 	#copyRight {
 		text-align: right;
 		position: relative;
-		right: 4px;
+		right: 0px;
+		margin-right: 2px;
 	}
 }
 
@@ -323,5 +324,6 @@ body {
 		text-align: center;
 		position: relative;
 		right: 0px;
+		margin-right: 0px;
 	}
 }
