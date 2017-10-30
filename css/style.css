@@ -19,9 +19,14 @@ ul {
 
 .nav {
 	background-color: #D4F5FD;
+	opacity: 0.7;
 	border-radius: 15px 15px 15px 15px;
 	width: 60px;
 	margin-top: 30%;
+}
+
+.nav:hover {
+	opacity: 1;
 }
 
 img {
