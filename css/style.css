@@ -302,4 +302,8 @@ body {
 	.introPic {
 		width: 320px;
 	}
+	
+	#copyRight {
+		text-align: center;
+	}
 }
