@@ -282,6 +282,7 @@ body {
 	}
 	
 	#copyRight {
+		position: relative;
 		right: 4%;
 	}
 }
@@ -311,6 +312,7 @@ body {
 	
 	#copyRight {
 		text-align: center;
+		position: relative;
 		right: 0px;
 	}
 }
