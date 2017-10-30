@@ -259,10 +259,6 @@ body {
 		border-bottom-style: none;
 	}
 	
-	.navbar-right {
-		bottom: 80px;
-	}
-	
 	.skillPic {
 		width: 150px;
 		height: 150px;
@@ -315,6 +311,7 @@ body {
 		width: auto;
 		border-radius: 10px;
 		opacity: 1;
+		bottom: 80px;
 	}
 	
 	.introPic {
