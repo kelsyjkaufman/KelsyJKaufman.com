@@ -282,8 +282,9 @@ body {
 	}
 	
 	#copyRight {
+		text-align: right;
 		position: relative;
-		right: 4%;
+		right: 6%;
 	}
 }
 
