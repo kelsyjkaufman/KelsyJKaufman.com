@@ -221,9 +221,8 @@ body {
 #copyRight {
 	color: #FFFFFF;
 	font-style: italic;
-	text-align: right;
+	text-align: center;
 	position: relative;
-	margin-right: 10%;
 }
 
 /*Tablets*/
@@ -277,8 +276,7 @@ body {
 	}
 	
 	#copyRight {
-		text-align: right;
-		margin-right: 4%;
+		text-align: center;
 	}
 }
 
@@ -322,6 +320,5 @@ body {
 	
 	#copyRight {
 		text-align: center;
-		margin-right: 0px;
 	}
 }
