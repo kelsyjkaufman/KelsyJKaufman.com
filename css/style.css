@@ -193,6 +193,7 @@ body {
 	width: 280px; 
 	height: auto;
 	margin-top: 20px;
+	z-index: 4;
 }
 
 .selfEmploymentCard {
