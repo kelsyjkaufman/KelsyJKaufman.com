@@ -12,6 +12,10 @@ ul {
 	list-style-type: none;
 }
 
+a {
+	z-index: 4;
+}
+
 .navbar {
 	background-color: rgba(0,0,0,0.00);
 	border-bottom: none;
