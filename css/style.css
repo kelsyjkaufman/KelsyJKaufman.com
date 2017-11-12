@@ -253,6 +253,9 @@ body {
 	.phoneEmailImage {
 		width: 50px;
 	}
+	.navBar{
+		pointer-events: auto;
+	}
 	.nav {
 		display: inline-block;
 		position: relative;
@@ -266,6 +269,7 @@ body {
 		border-radius: 10px;
 		opacity: 1;
 		bottom: 80px;
+		pointer-events: auto;
 	}
 	#navBarLeft {
 		bottom: 140px;
